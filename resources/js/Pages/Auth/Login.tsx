@@ -31,7 +31,7 @@ export default function Login({
     return (
         <AuthenticatedLayout>
             <Head title="Log in" />
-            <div className="card mx-auto mt-5 max-w-[400px] shadow-md">
+            <div className="mx-auto mt-5 max-w-[400px] md:card md:bg-gray-800 md:shadow-md">
                 <div className="card-body">
                     {status && (
                         <div className="mb-4 text-sm font-medium text-green-600">

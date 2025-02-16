@@ -25,7 +25,7 @@ export default function Register() {
     return (
         <AuthenticatedLayout>
             <Head title="Register" />
-            <div className="card mx-auto mt-5 max-w-[400px] shadow-md">
+            <div className="mx-auto mt-5 max-w-[400px] md:card md:bg-gray-800 md:shadow-md">
                 <div className="card-body">
                     <form onSubmit={submit}>
                         <div>
